@@ -9,15 +9,15 @@ The goal of this plugin to collect log when app is in production. All the log wi
 ```
 
 ```javascript
-$(document).ready(function(){
-	$.logCollector({
-		debug: false, // Will output response in console
-		data: {
-			app_name : 'Your App Name' // String
-			log_data : {
-				// Your Log Data - Array
-			}
-		}
-	});
+$(document).ready(function() {
+    $.logCollector({
+        debug: false, // Will output response in console
+        data: {
+            app_name: 'Your App Name' // String
+            log_data: {
+                // Your Log Data - Array
+            }
+        }
+    });
 });
 ```
